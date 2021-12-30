@@ -48,7 +48,6 @@
                     </thead>
 
                     <tbody>
-
                             @if ($condition_show == 2 AND $id_count >= 2)
                                 @foreach ($view_books as $view_book)
                                     <tr>
